@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
             options: ["1400", "1450", "1490", "1500"],
             correctOption: "1490",
             ingredient: "Gember",
-            image: "images/ginger.png"
+            image: "Spel soep/images/ginger.png"
         },
         {
             question: "Als je griepachtige verschijnselen had was je lichaam...?",
