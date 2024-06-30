@@ -5,21 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
             options: ["1400", "1450", "1490", "1500"],
             correctOption: "1490",
             ingredient: "Gember",
-            image: "images/ginger.png"
+            image: "Images/ginger.png"
         },
         {
             question: "Als je griepachtige verschijnselen had was je lichaam...?",
             options: ["In balans", "Uit balans"],
             correctOption: "Uit balans",
             ingredient: "Wortel",
-            image: "images/carrot.png"
+            image: "Images/carrot.png"
         },
         {
             question: "Wat zijn de 4 lichaamsvloeistoffen?",
             options: ["Bloed, slijm, gele gal, zwarte gal", "Bloed, water, slijm, gal", "Slijm, speeksel, zwarte gal, water"],
             correctOption: "Bloed, slijm, gele gal, zwarte gal",
             ingredient: "Peper",
-            image: "images/peper.png"
+            image: "Images/peper.png"
         },
         {
             question: "Hoe werd vervuilde lucht ookwel genoemd?",
