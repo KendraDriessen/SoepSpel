@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maak een Recept</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Maak een Recept</h1>
+        <button id="show-scenario" onclick="togglePopup(false)">Toon Scenario</button>
+        <div class="game">
+            <div class="questions">
+                <h2>Beantwoord de vragen:</h2>
+                <div id="question-container"></div>
+            </div>
+            <div class="ingredients">
+                <h2>Ingrediënten:</h2>
+                <div id="ingredient-container">
+                    <!-- Drag and drop ingredients will be dynamically added here -->
+                </div>
+            </div>
+            <div class="soup">
+                <h2>Je Soep Kom:</h2>
+                <canvas id="soup-bowl" width="300" height="300" ondrop="drop(event)" ondragover="allowDrop(event)"></canvas>
+                <button id="check-button" onclick="checkSoup()">De controleer je soep knop</button>
+                <div id="result-message" style="display: none;"></div>
+                <div id="result-buttons" style="display: none;">
+                    <button onclick="startNewGame()">Opnieuw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="scenario-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button" onclick="togglePopup(false)">×</span>
+            <div class="popup-image">
+                <!-- Afbeelding links van het recept -->
+            </div>
+            <p id="scenario-text">Red Anna van haar verkoudheid en maak de juiste soep!</p>
+            <div class="recipe-details">
+                <p id="soup-type"></p> <!-- Voeg dit toe om het soep type weer te geven -->
+                <div id="recipe-list" class="ingredients-with-image">
+                    <!-- Dynamically generated ingredients will be inserted here -->
+                </div>
+                <img src="Images/Zieke.png" alt="Recept Afbeelding" id="recipe-image" width="300" height="300">
+                <p>Speluitleg:</p>
+                <p>1. Los de vragen aan de hand van de animatie op en speel de benodigde ingrediënten vrij van het recept.</p>
+                <p>2. Sleep de vrijgespeelde ingrediënten naar de soep kom.</p>
+                <p>3. Zodra alle ingrediënten in de kom zijn gesleept, controleer je of het recept correct is samengesteld.</p>
+                <p>4. Als het recept juist is, heb je Anna gered met je zelfgemaakte soep!</p>
+                <button id="start-game-button" onclick="startGame()">Start het Spel</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="boiling-sound" loop>
+        <source src="music/boiling_water.wav" type="audio/mpeg">
+    </audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
