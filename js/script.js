@@ -26,91 +26,91 @@ document.addEventListener('DOMContentLoaded', () => {
             options: ["Stank", "Smog", "Vuile lucht", "Miasma"],
             correctOption: "Miasma",
             ingredient: "Tijm",
-            image: "images/tijm.png"
+            image: "Images/tijm.png"
         },
         {
             question: "Wat probeerden middeleeuwse artsen te doen?",
             options: ["Symptomen bestrijden", "Lichaamsvloeistoffen herstellen"],
             correctOption: "Lichaamsvloeistoffen herstellen",
             ingredient: "Ui",
-            image: "images/onion.png"
+            image: "Images/onion.png"
         },
         {
             question: "Wat schreven middeleeuwse artsen voor tegen een verkoudheid?",
             options: ["Kruiden en specerijen", "Warme en droge voedingsmiddelen"],
             correctOption: "Warme en droge voedingsmiddelen",
             ingredient: "Rozemarijn",
-            image: "images/rozemarijn.png"
+            image: "Images/rozemarijn.png"
         },
         {
             question: "Veel slijm in je neus is een teken dat we...?",
             options: ["Naar de dokter moeten", "Een ziekte hebben"],
             correctOption: "Een ziekte hebben",
             ingredient: "Selderij",
-            image: "images/celery.png"
+            image: "Images/celery.png"
         },
         {
             question: "Wat betekende het als een middeleeuwer niet in balans was, dan was hij/zij",
             options: ["Heel erg ziek", "Niet warm en droog genoeg", "Viel hij/zij op de grond"],
             correctOption: "Niet warm en droog genoeg",
             ingredient: "Peterselie",
-            image: "images/parsley.png"
+            image: "Images/parsley.png"
         },
         {
             question: "Als er teveel slijm ontstaat moet je?",
             options: ["Warme en droge dingen eten", "Hoesten", "Genoeg rust nemen"],
             correctOption: "Warme en droge dingen eten",
             ingredient: "Dille",
-            image: "images/dille.png"
+            image: "Images/dille.png"
         },
         {
             question: "Wat doen we in de huidige medische wetenschap?",
             options: ["Herstellen van de lichaamsvloeistoffen", "Symptoombestrijding"],
             correctOption: "Symptoombestrijding",
             ingredient: "Runderschenkel",
-            image: "images/runderschenkel.png"
+            image: "Images/runderschenkel.png"
         },
         {
             question: "Wat deed de middeleeuwer tegen een verkoudheid?",
             options: ["Naar de arts gaan", "Een lekkere soep maken"],
             correctOption: "Een lekkere soep maken",
             ingredient: "Soepballetje",
-            image: "images/soepballetje.png"
+            image: "Images/soepballetje.png"
         },
         {
             question: "Moderne geneeskunde gebruikt... om ons afweersysteem sterker te maken",
             options: ["Vaccins", "Technologieën"],
             correctOption: "Vaccins",
             ingredient: "Prei",
-            image: "images/prei.png"
+            image: "Images/prei.png"
         },
         {
             question: "Welk seizoen is het als je koud en vochtig bent?",
             options: ["Zomer", "Lente", "Winter", "Herfst"],
             correctOption: "Winter",
             ingredient: "Champignons",
-            image: "images/champignons.png"
+            image: "Images/champignons.png"
         },
         {
             question: "Welk seizoen is het als je warm en droog bent?",
             options: ["Zomer", "Lente", "Winter", "Herfst"],
             correctOption: "Zomer",
             ingredient: "Pastinaak",
-            image: "images/pastinaak.png"
+            image: "Images/pastinaak.png"
         },
         {
             question: "In de... hebben mensen vaak last van griepachtige verschijnselen",
             options: ["Lente en zomer", "Herfst en winter"],
             correctOption: "Herfst en winter",
             ingredient: "Kalkoen",
-            image: "images/kalkoen.png"
+            image: "Images/kalkoen.png"
         },
         {
             question: "Deze griepachtige verschijnselen worden veroorzaakt door...",
             options: ["Virussen", "Bacterien"],
             correctOption: "Virussen",
             ingredient: "Paprika",
-            image: "images/paprika.png"
+            image: "Images/paprika.png"
         },
     ];
 
