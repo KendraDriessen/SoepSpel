@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001f3f; /* Dark blue background */
+    margin: 0;
+    padding: 0;
+    color: white; /* Text color */
+}
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d4af37; /* Golden border */
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(145deg, #001f3f 0%, #001030 100%); /* Gradient background */
+}
+p {
+    margin: 2%;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #d4af37; /* Golden text */
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #d4af37; /* Golden text */
+}
+h3 {
+    color: #001f3f;
+}
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #d4af37; /* Golden border */
+    border-radius: 5px;
+    background-color: #d4af37; /* Golden background */
+    color: white;
+}
+button:hover {
+    background-color: #b5942d; /* Darker golden on hover */
+}
+.game {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+.questions, .ingredients, .soup {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid #d4af37; /* Golden border */
+    border-radius: 10px;
+    background-color: #ffffff; /* White background */
+    color: #001f3f; /* Dark blue text */
+}
+#soup-bowl {
+    border-radius: 50%;
+    background-color: grey; /* Dark blue background for canvas */
+    position: relative;
+}
+.ingredient {
+    margin: 10px;
+    cursor: grab;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px; /* Increased width */
+    height: 100px; /* Increased height */
+    border: none;
+    padding: 0;
+}
+.ingredients-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ingredients-with-image img {
+    flex: 1;
+    max-width: 50%; /* Adjust based on desired size */
+    height: auto;
+    margin-right: 20px; /* Space between image and list */
+}
+.ingredients-with-image div {
+    flex: 1; /* Distribute evenly */
+    text-align: left; /* Align text to the left */
+}
+.ingredients-with-image ul {
+    flex: 1;
+    padding: 0;
+    text-align: left; /* Tekst links uitlijnen */
+}
+.ingredients-with-image ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#result-message {
+    margin-top: 20px;
+    font-size: 18px;
+    display: none; /* Verberg standaard het resultaatbericht */
+}
+#result-buttons {
+    margin-top: 10px;
+    display: none; /* Verberg standaard de resultaatknoppen */
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Verberg de scrollbalk */
+    background-color: rgba(0,0,0,0.5);
+}
+.popup-content {
+    background-color: #001f3f;
+    margin: auto; /* Center het popupvenster horizontaal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    position: absolute;
+    top: 50%; /* Plaats het popupvenster verticaal in het midden */
+    left: 50%; /* Plaats het popupvenster horizontaal in het midden */
+    transform: translate(-50%, -50%); /* Centreren met negatieve vertaling */
+}
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.win-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
+#result-buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #d4af37; /* Golden border */
+    border-radius: 5px;
+    background-color: #d4af37; /* Golden background */
+    color: white;
+}
+.popup img {
+    margin-top: 20px;
+}
